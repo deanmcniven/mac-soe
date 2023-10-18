@@ -1,0 +1,13 @@
+---
+- name: Update Homebrew
+  hosts: localhost
+  become: false
+  tasks:
+    - name: Update Homebrew
+      homebrew:
+        update_homebrew: true
+
+    - name: Upgrade All Packages
+      homebrew:
+        upgrade_all: yes
+

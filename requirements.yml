@@ -1,0 +1,8 @@
+- name: set-user-facts
+  src: https://github.com/deanmcniven/ansible-set-user-facts
+  version: origin/master
+
+- name: vim
+  src: https://github.com/deanmcniven/ansible-vim
+  version: origin/master
+
