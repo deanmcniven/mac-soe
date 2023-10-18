@@ -1,3 +1,6 @@
 ---
 vim_configure_note_taking_commands: true
 
+tmux_copy_to_system_clipboard: false
+tmux_install_battery_indicator: false
+
