@@ -1,3 +1,7 @@
+- name: git
+  src: https://github.com/deanmcniven/ansible-git
+  version: origin/master
+
 - name: set-user-facts
   src: https://github.com/deanmcniven/ansible-set-user-facts
   version: origin/master

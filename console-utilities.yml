@@ -1,0 +1,7 @@
+---
+- name: Configure Console and Console Utilities
+  hosts: localhost
+  roles:
+    - git
+    - tmux
+    - vim

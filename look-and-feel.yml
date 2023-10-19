@@ -1,6 +1,0 @@
----
-- name: Configure Look and Feel
-  hosts: localhost
-  roles:
-    - tmux
-    - vim

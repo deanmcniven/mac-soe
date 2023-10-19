@@ -4,3 +4,7 @@ vim_configure_note_taking_commands: true
 tmux_copy_to_system_clipboard: false
 tmux_install_battery_indicator: false
 
+git_ignore_intellij_project_files: true
+git_ignore_maven_target_directory: true
+git_install_meld: false
+
