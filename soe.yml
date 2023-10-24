@@ -1,4 +1,5 @@
 ---
 - import_playbook: homebrew-update.yml
 - import_playbook: console-utilities.yml
+- import_playbook: applications.yml
 

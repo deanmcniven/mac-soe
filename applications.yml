@@ -1,0 +1,10 @@
+---
+- name: Install Applications
+  hosts: localhost
+  become: false
+  tasks:
+    - name: Install GIMP
+      homebrew_cask:
+        name: "gimp"
+        state: present
+
