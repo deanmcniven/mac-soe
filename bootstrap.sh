@@ -5,7 +5,7 @@ UNBOLD='\033[0m'
 
 if ! command -v brew &> /dev/null; then
     echo -e "⛔️ ${BOLD}brew not found. Installing ...${UNBOLD}"
-    /bin/bash -c $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     exit 1
 fi
 
