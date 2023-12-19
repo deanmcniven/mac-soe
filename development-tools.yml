@@ -1,0 +1,10 @@
+---
+- name: Install Development Tools
+  hosts: localhost
+  become: false
+  tasks:
+    - name: Install Go Lang
+      homebrew:
+        name: "go"
+        state: present
+
