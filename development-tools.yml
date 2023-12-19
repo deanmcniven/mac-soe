@@ -3,6 +3,11 @@
   hosts: localhost
   become: false
   tasks:
+    - name: Install VS Code
+      homebrew_cask:
+        name: "visual-studio-code"
+        state: present
+
     - name: Install Go Lang
       homebrew:
         name: "go"
