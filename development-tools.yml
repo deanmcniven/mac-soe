@@ -13,6 +13,11 @@
         name: "corretto"
         state: present
 
+    - name: Install DB Browser for SQLite
+      homebrew_cask:
+        name: "db-browser-for-sqlite"
+        state: present
+
     - name: Install Go Lang
       homebrew:
         name: "go"
