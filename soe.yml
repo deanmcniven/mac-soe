@@ -3,4 +3,5 @@
 - import_playbook: console-utilities.yml
 - import_playbook: applications.yml
 - import_playbook: development-tools.yml
+- import_playbook: shell_profile.yml
 
