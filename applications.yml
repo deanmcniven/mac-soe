@@ -8,8 +8,3 @@
         name: "gimp"
         state: present
 
-    - name: Install Apache Directory Studio
-      homebrew_cask:
-        name: "apache-directory-studio"
-        state: present
-
