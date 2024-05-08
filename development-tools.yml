@@ -28,8 +28,3 @@
         name: "maven"
         state: present
 
-    - name: Install Rust
-      homebrew:
-        name: "rust"
-        state: present
-
